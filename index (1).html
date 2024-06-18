@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mortgage Calculator</h1>
+    </header>
+
+    <main>
+      <div class="calculator">
+        <form id="Form">
+          <label for="principal">Principal ($):</label>
+          <input type="number" id="principal" name="principal" required />
+
+          <label for="rate">Yearly Interest Rate (%):</label>
+          <input type="number" id="rate" name="rate" step="0.01" required />
+
+          <label for="years">Length of Mortgage (years):</label>
+          <select id="years" name="years" required>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="30">30</option>
+          </select>
+
+          <button type="button" id="calculateButton">Calculate Payment</button>
+        </form>
+
+        <div id="result" class="result">
+          <p>Monthly payment is: <span id="monthlyPayment">$0.00</span></p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Check out the code on
+        <a href="https://github.com/Csaldana784/Webproject2/" target="_blank"
+          >GitHub</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
