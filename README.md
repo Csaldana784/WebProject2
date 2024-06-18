@@ -1,4 +1,4 @@
-#Mortgage Calculator
+# Mortgage Calculator
 **Welcome to the Mortgage Calculator**, a web application designed to help users calculate their monthly mortgage payments based on the principal amount, yearly interest rate, and mortgage length.
 
 **Summary:**
